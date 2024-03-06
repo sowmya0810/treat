@@ -15,7 +15,8 @@ public class BankAccount {
     }
 
     public void withdraw(double amount) {
-        if (balance >= amount) {
+        if (balance >= amount) 
+        {
             balance -= amount;
             System.out.println("Withdrawal of $" + amount + " successful.");
         } else {
